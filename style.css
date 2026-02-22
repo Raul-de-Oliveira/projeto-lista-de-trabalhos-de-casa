@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Smooch Sans;
+}
+
+body{
+    background-color:skyblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.works{
+    background-color: rgb(84, 166, 177);
+    width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.works ul{
+    list-style: none;
+    margin-top: 15px;
+}
+.works li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 40px;
+}
+.works input{
+    width: 40px;
+    
+}
+
+.works input[type="checkbox"] {
+    accent-color: rgb(0, 255, 34);
+    
+}
+.works h1{
+    font-size: 90px;
+}
+.works .submit{
+    width: 150px;
+    height: 60px;
+    display: block;
+    margin: 50px auto 0 auto;
+    border-radius: 15px;
+    background-color: rgb(0, 255, 115);
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
