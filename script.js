@@ -14,10 +14,12 @@ submit.addEventListener("click", function (e) {
     const allChecks = [...checkboxes].every(checkbox => checkbox.checked);
 
     if (allChecks) {
+        message.style.fontSize = "25px"
         message.style.color = "white";
         message.style.backgroundColor = "green";
         message.textContent = "✅ Parabéns, você concluiu todos os trabalhos! ✅";
     } else {
+          message.style.fontSize = "25px"
         message.style.color = "white";
         message.style.backgroundColor = "red";
         message.textContent = "⚠️ Você precisa concluir todos os trabalhos primeiro! ⚠️";

@@ -34,7 +34,6 @@ body{
 }
 .works input{
     width: 40px;
-    
 }
 
 .works input[type="checkbox"] {
@@ -56,11 +55,30 @@ body{
     font-weight: bold;
     
 }
+
 .works .submit:hover{
    background-color: #67e27b;
    transition: 0.3s;
 }
-
+@media (max-width:425px){
+   body{
+    padding: 40px;
+   }
+   .works h1{
+    font-size: 50px;
+   }
+   .works li{
+    font-size: 35px;
+   }
+   .works input{
+    width: 30px;
+   }
+   .works .submit{
+    width: 90px;
+    font-size: 30px;
+    height: 60px;
+   }
+}
 
 
 
