@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color:skyblue;
+    background-color:#87CEFA;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -16,10 +16,11 @@ body{
     
 }
 .works{
-    background-color: rgb(84, 166, 177);
+    background-color:#16154e;
     width: 700px;
     padding: 20px;
     border-radius: 10px;
+    color: rgb(255, 255, 255);
 }
 .works ul{
     list-style: none;
@@ -37,9 +38,10 @@ body{
 }
 
 .works input[type="checkbox"] {
-    accent-color: rgb(0, 255, 34);
+    accent-color: rgb(0, 165, 0);
     
 }
+
 .works h1{
     font-size: 90px;
 }
@@ -49,10 +51,14 @@ body{
     display: block;
     margin: 50px auto 0 auto;
     border-radius: 15px;
-    background-color: rgb(0, 255, 115);
+    background-color: rgb(0, 197, 89);
     font-size: 40px;
     font-weight: bold;
     
+}
+.works .submit:hover{
+   background-color: #67e27b;
+   transition: 0.3s;
 }
 
 
